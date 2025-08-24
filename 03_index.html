@@ -7,10 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="root"></div>
-        <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-        <script src="./03_App.js"> 
+    <div id="root" class="head"></div>
+        <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> Deleting as npm installed react and reactDom--> 
+        <!-- <script src="./03_App.js"> 
+        </script> -->
+        <script type="module" src="./03_App.js"> //Entered type="module" as taking import react and react-dom which is imported and present in node modules
         </script>
     
 </body>
